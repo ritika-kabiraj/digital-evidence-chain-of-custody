@@ -90,48 +90,8 @@ Evidence can be associated with investigation cases, allowing evidence and custo
 
 ## 🏗️ System Architecture
 
-```text
-                         ┌──────────────────────┐
-                         │      User / Admin    │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │   React Frontend     │
-                         │   Vite + Tailwind    │
-                         └──────────┬───────────┘
-                                    │
-                              REST API
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │   FastAPI Backend    │
-                         ├──────────────────────┤
-                         │ Authentication       │
-                         │ RBAC                 │
-                         │ Evidence Management  │
-                         │ Case Management      │
-                         │ Custody Management   │
-                         │ Audit Services       │
-                         │ Verification         │
-                         └───────┬───────┬──────┘
-                                 │       │
-                    ┌────────────┘       └─────────────┐
-                    ▼                                  ▼
-          ┌──────────────────┐               ┌──────────────────┐
-          │ Evidence Storage │               │ Blockchain Layer │
-          │   Off-Chain      │               │ Solidity         │
-          └──────────────────┘               │ EvidenceLedger   │
-                                             └──────────────────┘
-                                                      │
-                                                      ▼
-                                             ┌──────────────────┐
-                                             │ Integrity /      │
-                                             │ Custody Records  │
-                                             └──────────────────┘
-```
+<img width="1536" height="1024" alt="ChatGPT Image Sep 8, 2026, 03_48_10 PM" src="https://github.com/user-attachments/assets/8461c734-c430-4f1c-85bf-7aa9b04dfb11" />
 
----
 
 ## 🔄 Evidence Lifecycle
 
@@ -485,27 +445,25 @@ This approach allows the system to identify whether the contents of an evidence 
 ## 📸 Screenshots
 
 ### Dashboard
+<img width="959" height="415" alt="image" src="https://github.com/user-attachments/assets/21f1ad8d-8e9b-49ab-b722-75f04253edc8" />
 
-<img width="959" height="415" alt="image" src="https://github.com/user-attachments/assets/a700c412-0899-4874-9034-662b6b3767ea" />
 
 ### Evidence Management
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e269ad25-2f70-4a7d-b407-6c7b1660a9c0" />
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/c124f37f-4d2d-4a1d-a39c-bcd26d2fc11a" />
 
 
 ### Chain of Custody
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4c57dee-6151-4452-bc7a-b64059f67d6a" />
+<img width="959" height="408" alt="image" src="https://github.com/user-attachments/assets/05752962-d53b-4d2a-9dce-ff1a593ce896" />
 
 
 ### Evidence Verification
+<img width="959" height="394" alt="image" src="https://github.com/user-attachments/assets/b853217d-e0ab-4975-9a5c-e7bd6e2318b0" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c0477c22-7315-4aa7-849e-cf98061db447" />
 
 
 ### Audit Logs
+<img width="958" height="410" alt="image" src="https://github.com/user-attachments/assets/160def74-26b6-4c54-97ce-2f6f5ab4d2fb" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0f864bf-e49d-4e7b-93ac-89897c85736b" />
 
 
 ---
