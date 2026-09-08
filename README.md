@@ -484,27 +484,29 @@ This approach allows the system to identify whether the contents of an evidence 
 
 ## 📸 Screenshots
 
-Screenshots demonstrating the system interface and workflows will be added here.
-
 ### Dashboard
 
-> Add dashboard screenshot here.
+<img width="959" height="415" alt="image" src="https://github.com/user-attachments/assets/a700c412-0899-4874-9034-662b6b3767ea" />
 
 ### Evidence Management
 
-> Add evidence upload/management screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e269ad25-2f70-4a7d-b407-6c7b1660a9c0" />
+
 
 ### Chain of Custody
 
-> Add custody timeline screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4c57dee-6151-4452-bc7a-b64059f67d6a" />
+
 
 ### Evidence Verification
 
-> Add verification screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c0477c22-7315-4aa7-849e-cf98061db447" />
+
 
 ### Audit Logs
 
-> Add audit-log screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0f864bf-e49d-4e7b-93ac-89897c85736b" />
+
 
 ---
 
